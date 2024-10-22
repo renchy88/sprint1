@@ -1,0 +1,89 @@
+@import "fonts.css";
+@import "media.css";
+@import "lists/Hero.css";
+@import "lists/advantages.css";
+@import "lists/howwork.css";
+@import "lists/tarifs.css";
+@import "lists/feedback.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Visuelt Pro", sans-serif;
+    background: #F2F2F2;
+    font-weight: 400;
+}
+
+.wrapper {
+    max-width: 95%;
+    margin: 24px auto;
+    border-radius: 24px;
+    overflow: hidden;
+    backdrop-filter: blur(240px);
+    background: rgba(255, 255, 255, 0.65);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.language-switch {
+    display: flex;
+    align-items: center;
+}
+
+.language-switch a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.login-button {
+    background-color: #4A90E2;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
