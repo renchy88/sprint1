@@ -27,20 +27,22 @@
     </header>
     <main>
         <section class="hero">
-            <div class="hero__text">
-                <h1>Высокий уровень вовлечения представителей</h1>
-                <form>
-                    <input type="email" placeholder="Введите свой e-mail">
-                    <button type="submit">Отправить</button>
-                </form>
-                <p>Нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
-                <div class="scroll-down">
-                    <img src="Images/wheeldown.png" alt="Листайте дальше">
-                    <p>Листайте дальше</p>
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1>Высокий уровень вовлечения представителей</h1>
+                        <form>
+                            <input type="email" placeholder="Введите свой e-mail">
+                            <button type="submit">Отправить</button>
+                        </form>
+                        <p>Нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
+                        <div class="scroll-down">
+                            <img src="Images/wheeldown.png" alt="Листайте дальше">
+                            <p>Листайте дальше</p>
+                        </div>
+                    </div>
+                    <img class="hero__image" src="Images/Picture.png" alt="Rocket">
                 </div>
-            </div>
-            <div class="hero__image">
-                <img src="Images/Picture.png" alt="Rocket">
             </div>
         </section>
 
@@ -48,19 +50,29 @@
             <h2>Наши преимущества</h2>
             <div class="advantages__container">
                 <div class="advantage">
-                    <p>🤓 Легко и просто</p>
+                    <div class="title-container">
+                        <img src="Images/Emoji.png" alt="Легко и просто">
+                        <h3>Легко и просто</h3>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
                 </div>
                 <div class="advantage">
-                    <p>😜 Быстро и доступно</p>
+                    <div class="title-container">
+                        <img src="Images/1Emoji.png" alt="Быстро и доступно">
+                        <h3>Быстро и доступно</h3>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
                 </div>
                 <div class="advantage">
-                    <p>😎 А главное, качественно</p>
+                    <div class="title-container">
+                        <img src="Images/2Emoji.png" alt="А главное, качественно">
+                        <h3>А главное, качественно</h3>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
                 </div>
             </div>
         </section>
+
 
         <section class="howwork">
             <div class="howwork__container">
@@ -88,54 +100,56 @@
             <div class="tarifs__container">
                 <div class="tarif">
                     <h3>Эконом</h3>
-                    <p>2 990 руб/месяц</p>
+                    <p class="price">2 990 руб/ <span class="tarifs__month">месяц</span></p>
                     <ul>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/NO.png" alt="Нет"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/NO.png" alt="Нет"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/NO.png" alt="Нет"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/NO.svg" alt="Нет"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/NO.svg" alt="Нет"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/NO.svg" alt="Нет"> Lorem ipsum dolor sit amet</li>
                     </ul>
                     <button>Узнать подробнее</button>
                 </div>
                 <div class="tarif">
                     <h3>Стандарт</h3>
-                    <p>4 990 руб/месяц</p>
+                    <p class="price">4 990 руб/ <span class="tarifs__month">месяц</span></p>
                     <ul>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/NO.png" alt="Нет"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/NO.png" alt="Нет"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/NO.svg" alt="Нет"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/NO.svg" alt="Нет"> Lorem ipsum dolor sit amet</li>
                     </ul>
                     <button>Узнать подробнее</button>
                 </div>
                 <div class="tarif">
                     <h3>Экстра</h3>
-                    <p>8 990 руб/месяц</p>
+                    <p class="price">8 990 руб/ <span class="tarifs__month">месяц</span></p>
                     <ul>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/NO.png" alt="Нет"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/NO.svg" alt="Нет"> Lorem ipsum dolor sit amet</li>
                     </ul>
                     <button>Узнать подробнее</button>
                 </div>
                 <div class="tarif">
                     <h3>Премиальный</h3>
-                    <p>12 990 руб/месяц</p>
+                    <p class="price">12 990 руб/ <span class="tarifs__month">месяц</span></p>
                     <ul>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
-                        <li><img src="Images/YES.png" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
+                        <li><img src="Images/YES.svg" alt="Да"> Lorem ipsum dolor sit amet</li>
                     </ul>
                     <button>Узнать подробнее</button>
                 </div>
             </div>
         </section>
+
+
         <section class="feedback">
-            <h2>Отзывы</h2>
+            <div class="container">
 
-
+            </div>
         </section>
     </main>
 </div>

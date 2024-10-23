@@ -6,56 +6,80 @@
     margin: 0 auto;
 }
 
-.tarif {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.tarifs__month {
+    color: #666666;
+}
+
+.tarifs {
+    background-color: #fff;
+    border-radius: 15px;
     padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.tarif h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.tarifs-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0;
 }
 
-.tarif p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #0000ff;
+.tarifs h3 {
+    font-size: 1.9em;
+    margin: 0;
+    color: #000;
 }
 
-.tarif ul {
+.tarifs .price {
+    font-size: 1.4em;
+    color: #007bff;
+    margin-bottom: 50px;
+}
+
+.tarifs .price span {
+    color: #999;
+}
+
+.tarifs ul {
     list-style: none;
     padding: 0;
     margin-bottom: 20px;
 }
 
-.tarif ul li {
+.tarifs ul li {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
     font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
 }
 
-.tarif ul li img {
-    margin-right: 10px;
-    width: 20px;
+.tarifs ul li img {
+    margin-right: 15px;
+    width: 30px;
 }
 
-.tarif button {
+.tarifs button {
+    display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: white;
+    color: #007bff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
     transition: background-color 0.3s ease;
 }
 
-.tarif button:hover {
+.tarifs button:hover {
     background-color: #0056b3;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 20px;
 }
