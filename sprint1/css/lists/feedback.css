@@ -1,6 +1,15 @@
 .feedback {
     padding: 40px 0;
-    background: linear-gradient(135deg, rgba(242, 242, 255, 0.5), rgba(255, 204, 255, 0.3));
+    background: radial-gradient(circle at 100% 0%, rgba(235, 71, 139, 0.34) 4%, rgba(134, 51, 176, 0.31) 13%, transparent 20%),
+    radial-gradient(ellipse at 100% 100%, rgba(71, 84, 235, 0.47) 7%, transparent 30%);
+}
+
+.feedback__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
 }
 
 .feedback__card {
@@ -9,15 +18,22 @@
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     padding: 20px;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
     max-width: 400px;
     width: 100%;
+    position: relative;
 }
 
 .feedback__card img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
+}
+
+.feedback__info {
+    display: flex;
+    flex-direction: column;
 }
 
 .feedback__info h3 {
@@ -28,19 +44,53 @@
 .feedback__info p {
     font-size: 14px;
     color: #666;
+    margin: 0;
+}
+
+.feedback__date {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 12px;
+    color: #999;
 }
 
 .stars {
     display: flex;
-    gap: 5px;
+    gap: 3px;
+}
+
+.stars img {
+    width: 16px;
 }
 
 .feedback__button {
-    margin-top: 30px;
     padding: 10px 20px;
-    background-color: #4A90E2;
-    color: white;
+    background-color:white ;
+    color: #4A90E2;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 30px;
+    align-self: flex-end;
+    
+}
+
+.feedback__card:nth-child(1) {
+    margin-top: 20px;
+}
+
+.feedback__card:nth-child(2) {
+    margin-left: -50px;
+    margin-top: 40px;
+}
+
+.feedback__card:nth-child(3) {
+    margin-left: -50px;
+    margin-top: 60px;
+}
+
+.feedback__card:nth-child(4) {
+    margin-left: auto;
+    margin-top: 80px;
 }
