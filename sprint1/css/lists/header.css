@@ -2,7 +2,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 56px;
+    height: 64px;
     background-color: #fff;
 }
 
@@ -15,6 +16,7 @@ header .logo {
 header nav ul {
     display: flex;
     list-style: none;
+    gap: 24px;
 }
 
 header nav ul li {
@@ -24,6 +26,7 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #333;
+    font-size: 18px;
 }
 
 .language-switch {
@@ -44,4 +47,10 @@ header nav ul li a {
     padding: 12px 25px;
     border-radius: 20px;
     cursor: pointer;
+}
+header .language-switch a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
 }

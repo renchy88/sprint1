@@ -6,7 +6,8 @@
 @import "lists/tarifs.css";
 @import "lists/feedback.css";
 @import "lists/header.css";
-
+@import "containers.css";
+@import "lists/sale.css";
 * {
     margin: 0;
     padding: 0;
@@ -23,21 +24,14 @@ body {
 }
 
 .wrapper {
-    max-width: 95%;
+    max-width: 1392px;
     margin: 24px auto;
     border-radius: 24px;
+    height: auto;
     overflow: hidden;
     backdrop-filter: blur(240px);
     background: rgba(255, 255, 255, 0.65);
 }
-.container{
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 24px;
-    height: auto;
-    width: 100%;
-}
-
 
 
 

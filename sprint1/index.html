@@ -10,24 +10,27 @@
 
 <div class="wrapper">
     <header>
-        <div class="logo">Инстаботы</div>
-        <nav>
-            <ul>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Тарифы</a></li>
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Q&A</a></li>
-                <li><a href="#">Обратная связь</a></li>
-            </ul>
-        </nav>
-        <div class="language-switch">
-            <a href="#">Ru / En</a>
-            <button class="login-button">Вход и регистрация</button>
+        <div class="header__container">
+            <div class="logo">Инстаботы</div>
+            <nav>
+                <ul>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Тарифы</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">Обратная связь</a></li>
+                </ul>
+            </nav>
+            <div class="language-switch">
+                <a href="#">Ru / En</a>
+                <button class="login-button">Вход и регистрация</button>
+            </div>
         </div>
     </header>
+
     <main>
         <section class="hero">
-            <div class="container">
+            <div class="hero__container">
                 <div class="hero__content">
                     <div class="hero__text">
                         <h1>Высокий уровень вовлечения представителей</h1>
@@ -47,6 +50,7 @@
         </section>
 
         <section class="advantages">
+            <div class="container">
             <h2>Наши преимущества</h2>
             <div class="advantages__container">
                 <div class="advantage">
@@ -70,6 +74,7 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -96,6 +101,7 @@
         </section>
 
         <section class="tarifs">
+            <div class="container">
             <h2>Наши тарифы</h2>
             <div class="tarifs__container">
                 <div class="tarif">
@@ -142,15 +148,81 @@
                     </ul>
                     <button>Узнать подробнее</button>
                 </div>
+                </div>
             </div>
         </section>
 
 
         <section class="feedback">
             <div class="container">
+                <h2>Отзывы</h2>
+                <div class="feedback__container">
+                    <div class="feedback__card">
+                        <img src="Images/feedback/oleg.png" alt="Кот Олежа">
+                        <div class="feedback__info">
+                            <h3>Кот Олежа</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
+                            <div class="stars">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="feedback__card">
+                        <img src="Images/feedback/semen.png" alt="Кот Семен">
+                        <div class="feedback__info">
+                            <h3>Кот Семен</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
+                            <div class="stars">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feedback__card">
+                        <img src="Images/feedback/sereg.png" alt="Кот Серега">
+                        <div class="feedback__info">
+                            <h3>Кот Серега</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi sit felis odio.</p>
+                            <div class="stars">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/star.svg" alt="star">
+                                <img src="Images/feedback/notstar.svg" alt="not star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="feedback__button">Структурировать котиков</button>
             </div>
         </section>
+
+        <section class="sale">
+            <div class="sale__container">
+                <div class="sale__content">
+                    <img src="Images/sale.png" alt="SALE">
+                    <div class="sale__text">
+                        <h1>Получите самую выгодную цену на планете</h1>
+                        <form>
+                            <input type="email" placeholder="Введите свой e-mail">
+                            <button type="submit">Отправить</button>
+                        </form>
+                        <p>Нажимая на кнопку, вы соглашаетесь на обработку персональных данных</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 </div>
 
