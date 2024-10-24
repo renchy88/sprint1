@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    background-color: #F2F2F2;
 }
 
 .sale__content {
@@ -13,8 +12,8 @@
 }
 
 .sale__content img {
-    width: 628px;
-    height: 640px;
+    width: 560px;
+    height: 480px;
 }
 
 .sale__text {

@@ -16,7 +16,7 @@
 .advantages__container {
     max-width: 1344px;
     margin: 0 auto;
-    height: 240px;
+    height: 340px;
     width: 100%;
 }
 .howwork__container{
@@ -37,7 +37,7 @@
     height: auto;
     min-height: 800px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
     width: 100%;
@@ -47,5 +47,33 @@
     align-items: center;
     justify-content: space-between;
     max-width: 1280px;
+    min-height: 800px;
     margin: 0 auto;
+}
+.quests__container{
+    max-width: 1344px;
+    height: 624px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.callback__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    min-height: 728px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    display: flex;
+    min-height: 80px;
 }

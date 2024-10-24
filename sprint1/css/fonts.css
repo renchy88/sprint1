@@ -4,3 +4,26 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: url('../fonts/VisueltPro-Thin.ttf');
+    font-weight: 200;
+}

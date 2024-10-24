@@ -8,6 +8,10 @@
 @import "lists/header.css";
 @import "containers.css";
 @import "lists/sale.css";
+@import "lists/quests.css";
+@import "lists/callback.css";
+@import "lists/footer.css";
+
 * {
     margin: 0;
     padding: 0;
