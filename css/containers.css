@@ -1,0 +1,57 @@
+.header__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+.advantages__container {
+    max-width: 1344px;
+    margin: 0 auto;
+    height: 340px;
+    width: 100%;
+}
+.howwork__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+.tarifs__container {
+    max-width: 1344px;
+    margin: 0 auto;
+    height: 552px;
+    width: 100%;
+}
+.feedback__container{
+    max-width: 1280px;
+    margin: 0 auto;
+    height: auto;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.sale__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.quests__container{
+    max-width: 1344px;
+    height: 624px;
+    width: 100%;
+    margin: 0 auto;
+}
