@@ -1,0 +1,56 @@
+.sale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #F2F2F2;
+}
+
+.sale__content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sale__content img {
+    width: 628px;
+    height: 640px;
+}
+
+.sale__text {
+    max-width: 600px;
+}
+
+.sale__text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.sale__text form {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.sale__text input {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    flex: 1;
+}
+
+.sale__text button {
+    padding: 16px 32px;
+    background-color: #1670da;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sale__text p {
+    font-size: 14px;
+    color: #777;
+}
