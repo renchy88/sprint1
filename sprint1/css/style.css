@@ -1,0 +1,107 @@
+@import "fonts.css";
+@import "media.css";
+@import "lists/Hero.css";
+@import "lists/advantages.css";
+@import "lists/howwork.css";
+@import "lists/tarifs.css";
+@import "lists/feedback.css";
+@import "lists/header.css";
+@import "containers.css";
+@import "lists/sale.css";
+@import "lists/quests.css";
+@import "lists/callback.css";
+@import "lists/footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Visuelt Pro", sans-serif;
+    background: #F2F2F2;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.wrapper {
+    max-width: 1392px;
+    margin: 24px auto;
+    border-radius: 24px;
+    height: auto;
+    overflow: hidden;
+    backdrop-filter: blur(240px);
+    background: rgba(255, 255, 255, 0.65);
+}
+
+
+.blue-button , .login-button {
+    background-color: #4A90E2;
+    color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.blue-button:hover, .login-button:hover{
+    background-color: #5DA9F2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blue-button:active, .login-button:active{
+    background-color: #3A78C2;
+}
+
+.white-button {
+    background-color: #fff;
+    color: #4A90E2;
+    transition: color 0.3s, box-shadow 0.3s;
+}
+
+.white-button:hover {
+    color: #5DA9F2;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.white-button:active {
+    color: #3A78C2;
+    background-color: #fff;
+}
+
+.input {
+    transition: color 0.3s, box-shadow 0.3s;
+}
+
+.input:hover::placeholder  {
+    color: #5DA9F2;
+}
+
+.input:hover{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input:focus::placeholder{
+    color: #3A78C2;
+}
+
+.input:focus {
+    color: #3A78C2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+header nav ul li a:hover {
+    color: #4A90E2;
+}
+
