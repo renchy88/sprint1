@@ -66,7 +66,6 @@
 }
 
 .howwork__text nav a {
-    color: #3B82F6;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -80,4 +79,30 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.btn1,.btn2,.btn3 {
+    text-decoration: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover {
+    color: #626EEB;
+}
+
+.btn1:active,.btn2:active,.btn3:active {
+    color: #2F3BB7;
+}
+
+.wallpaper{
+    display: flex;
+    overflow: hidden;
+    max-width: 436px;
+}
+.list1, .list2, .list3 {
+    min-width: 436px;
+    transition: all .4s;
 }

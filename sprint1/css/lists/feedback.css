@@ -42,7 +42,10 @@
     gap: 10px;
     max-width: 628px;
     height: 240px;
+    transition: .2s;
     position: absolute;
+    left:0;
+    top:0;
 }
 
 .feedback__card img {
@@ -93,24 +96,22 @@
 
 }
 
-.feedback__card:nth-child(1) {
-    left: 0;
-    top: 136px;
+.feedback__card._1 {
+    transform:translate(0, 56px);
+    z-index: 0;
 }
 
-.feedback__card:nth-child(2) {
-    top: 80px;
-    right: 327px;
+.feedback__card._2 {
+    transform:translate(326px, 0);
+    z-index: 4;
+}
+
+.feedback__card._3 {
+    transform:translate(653px, 192px);
+    z-index:6;
+}
+
+.feedback__card._4 {
+    transform:translate(164px, 320px);
     z-index: 5;
-}
-
-.feedback__card:nth-child(3) {
-    bottom: 0;
-    left: 164px;
-}
-
-.feedback__card:nth-child(4) {
-    bottom: 128px;
-    right: 0;
-    z-index: 1;
 }

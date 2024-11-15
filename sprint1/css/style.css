@@ -18,6 +18,14 @@
     box-sizing: border-box;
 }
 
+a {
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
 body {
     font-family: "Visuelt Pro", sans-serif;
     background: #F2F2F2;
