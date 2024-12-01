@@ -1,0 +1,79 @@
+.advantages__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.advantage {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.advantage .title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.animated-emoji {
+    width: 56px;
+    margin-right: 10px;
+}
+
+.advantage h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color:black;
+    font-weight: bold;
+    display: inline-block;
+}
+.advantages h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 56px;
+    margin-top: 80px;
+}
+
+.advantage:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.advantage:nth-child(1):hover img {
+    content: url(../../Images/1.gif);
+}
+
+.advantage:nth-child(2):hover img {
+    content: url(../../Images/2.gif);
+}
+
+.advantage:nth-child(3):hover img {
+    content: url(../../Images/3.gif);
+}
+
+.advantage .static-emoji {
+    display: inline-block !important;
+}
+
+.advantage .animated-emoji {
+    display: none !important;
+}
+
+.advantage:hover .static-emoji {
+    display: none !important;
+}
+
+.advantage:hover .animated-emoji {
+    display: inline-block !important;
+}
+
+.static-emoji  {
+    width: 56px;
+    display: inline-block !important;
+    margin-right: 10px;
+}
